@@ -35,9 +35,9 @@ print(subjects[4], "Marks: ", marks[4])
 # Display the marks in reverse order.
 print("\nMarks in reverse order")
 marks.reverse()  # reverse() is used to reverse the order of the marks in the list.
-print("\nMarks in reverse order: ", marks)
+print("Marks in reverse order: ", marks)
 
-# # Display the marks in sorted order.
-# print("\nMarks in sorted order")
-# marks.sort()  # sort() is used to sort the marks in ascending order.
-# print("\nMarks in sorted order: ", marks)1.
+# Display the marks in sorted order.
+print("\nMarks in sorted order")
+marks.sort()  # sort() is used to sort the marks in ascending order.
+print("Marks in sorted order: ", marks)
