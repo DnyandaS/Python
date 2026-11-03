@@ -23,21 +23,11 @@ if marks:
 else:
     print("No marks entered.")
 
-#marks in ascending order
-print("\nMarks in ascending order")
-marks.sort()         #sort() method is used to sort numbers in ascending order.
-subjects = ["python", "maths", "english", "physics", "chemistry"]
-print(subjects[0], "marks: ", marks[0])
-print(subjects[1], "marks: ", marks[1])
-print(subjects[2], "marks: ", marks[2])
-print(subjects[3], "marks: ", marks[3])
-print(subjects[4], "marks: ", marks[4])
-
-#marks in descending order
-print("\nMarks in descending order")
-marks.reverse()     #reverse() method is used to reverse the order of the list.
+# Display the marks of each given subjects.
+subjects = ["Python", "Maths", "English", "Physics", "Chemistry"]
+print("\nMarks of each subject")
 print(subjects[0], "Marks: ", marks[0])
 print(subjects[1], "Marks: ", marks[1])
-print(subjects[2], "Marks: ", marks[2]) 
+print(subjects[2], "Marks: ", marks[2])
 print(subjects[3], "Marks: ", marks[3])
 print(subjects[4], "Marks: ", marks[4])
