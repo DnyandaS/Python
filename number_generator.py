@@ -10,19 +10,19 @@ for i in range(1, number + 1):  #took range from 1 to number + 1 to generate seq
 
 # reverse number sequence
 print("\nReverse Number Sequence Generator")
-number = int(input("Enter a number to generate reverse sequence: "))
+# number = int(input("Enter a number to generate reverse sequence: "))
 for i in range(number , 0 , -1):   #took range from number to 0 with step -1 to generate reverse sequence.
     print(i, end = " ")
 
 # multiplication table
 print("\nMultiplication Table Generator")
-number = int(input("Enter a number to generate a multiplication table: "))
+# number = int(input("Enter a number to generate a multiplication table: "))
 for i in range(1,11):              #took range from 1 to 10 to generate multiplication table.
     print(number,"X", i , "=", number * i)
 
 # sum of numbers
 print("\nSum of Numbers Generator")
-number = int(input("Enter  a number to calculate it's sum: "))
+# number = int(input("Enter  a number to calculate it's sum: "))
 total= 0                        #took a variable total to store the sum of numbers from 1 to the entered number.
 for i in range(1, number + 1):  #took range from 1 to number + 1 to calculate the sum of numbers from 1 to the entered number.
     total += i
@@ -30,7 +30,7 @@ print("The sum of numbers from 1 to", number, "is:", total)
 
 #even or odd number generator
 print("\nEven or Odd Number Generator")
-number = int(input("Enter a number to check if it's even or odd: "))
+# number = int(input("Enter a number to check if it's even or odd: "))
 for i in range(1, number + 1):         #took range from 1 to number + 1 to check if the numbers from 1 to the entered number are even or odd.
     if i % 2 == 0:                   
         print(i, "is even")
