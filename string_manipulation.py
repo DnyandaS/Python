@@ -19,3 +19,14 @@ for i in sentence:
         pass
 print("The number of vowels in the sentence is: ", vowels)
 print("The number of consonants in the sentence is: ", consonants)
+
+# case conversion
+# print the sentence in uppercasei
+print("The sentence in uppercase is: ", sentence.upper())
+# print the sentence in lowercase
+print("The sentence in lowercase is: ", sentence.lower())
+
+# word count
+word = sentence.split()  # split() is used to split the sentence into words.
+word_count = len(word)
+print("The number of words in the sentence is: ", word_count)
