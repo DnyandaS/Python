@@ -4,7 +4,16 @@
 
 budget = float(input("Enter your monthly budget: "))
 expenses = []  # list to store expenses
-a = int(input("Enter the number of expenses you want to record: "))
-for i in range(a):
-    expense = float(input(f"Enter expense {i + 1}: "))
-    expenses.append(expense)
+for i in range(5):  # loop to get 5 expenses from the user
+    expense = float(input("Enter expense amount: "))
+    expenses.append(expense)  # add expense to the list 
+    
+total_expenses = sum(expenses)
+remaining_budget = budget - total_expenses
+
+print(f"Total expenses: ${total_expenses:.2f}")
+print(f"Remaining budget: ${remaining_budget:.2f}")
+
+
+
+## code is in progress
