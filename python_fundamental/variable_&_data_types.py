@@ -3,6 +3,11 @@
 name = "dnyanda"
 print(type(name))  #str() is used to convert the variable into a string.
 print(name)       # when a data type is not assigned to a variable, it's defualt data type is a string.
+# anything elnclosed in single os double quotes is a string().
+greeting = "hello world"
+print(greeting)
+greet = 'hello world'
+print(greet)
 
 
 age = int(9)
