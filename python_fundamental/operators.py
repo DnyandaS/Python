@@ -7,7 +7,7 @@ print("division: ", num1 / num2)
 print("floor division: ", num1 // num2)
 print("modulo: ", num1 % num2)
 print("multiplication: ", num1 * num2)
-print("power: ", num1 ** num2)
+print("exponentiation: ", num1 ** num2)
 
 # relational operator
 print(num1 > num2)
