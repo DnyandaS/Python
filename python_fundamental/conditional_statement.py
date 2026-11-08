@@ -13,7 +13,7 @@ if marks >= 90 :
     print("top score")
 elif marks >= 70:
     print("average marks")
-elif narks >=50:
+elif marks >=50:
     print("you should focuse on your studies")
 else:
     print("fail")
