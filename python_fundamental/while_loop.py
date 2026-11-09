@@ -45,3 +45,29 @@ while i <= 10 :
     print(number, "X", i, "=", number * i)
     i += 1
 print("Well done!!")
+
+
+# printing patterns using while loops
+
+## pattern 1: square
+rows = int(input("Enter number of rows: "))
+columns = int(input("Enter number of columns: "))
+i = 1 
+while i <= rows :  # controls rows (outer loop)
+    j = 1
+    while j <= columns :    # controls columns (inner loop)
+        print("*", end = " ")   # prints "*" on same line
+        j += 1
+    i += 1
+    print()    # moves to next line after each row
+
+## pattern 2: right angled triangle
+rows = int(input("Enter number of rows: "))
+i = 1
+while i <= rows :
+    j = 1
+    while j <= i :
+        print("*", end = " ")
+        j += 1
+    i += 1
+    print()
