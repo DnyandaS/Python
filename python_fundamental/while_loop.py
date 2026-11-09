@@ -24,7 +24,15 @@ while password != correct_password :           # the loop runs as long as the pa
 print("Good Job!")                       # prints "Good Job!" when the loop ends.
 
 # counter-controlled loops
-count = 2   # tracks hows many times the loop will run.
-while 10 >= count :
+count = 1  # intializing value
+while 5 >= count :
     print(count)
-    count += 1  
+    count += 1  # increses count by +1 each time.
+
+# sum 
+total = 0
+num = 1
+while num <= 5 :
+    total += num
+    num += 1
+print("Sum:",total)
