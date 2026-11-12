@@ -73,5 +73,3 @@ while i <= rows :
     i += 1
     print()
 
-
-
