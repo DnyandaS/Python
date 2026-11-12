@@ -47,3 +47,24 @@ for i in range(n,n+1):  # n+1 to include n, cause range() excludes the stop valu
         print("The number is positive and odd")
     else:
         print("The number is zero")
+
+# patterns using for loop
+print(" Square star Pattern --->")
+n = 5
+for i in range(1,n+1):
+    print("* " * n)
+
+print("Right angled triangle star pattern --->")
+n = 5
+for i in range(1,n+1):
+    print("* " * i)
+
+## nested for loop
+print("Nested for loop")
+n = 5
+for i in range(1, n+1):
+    for j in range(i):
+      print("* ", end =" ")
+    print()
+
+    
