@@ -61,6 +61,7 @@ while i <= rows :  # controls rows (outer loop)
     i += 1
     print()    # moves to next line after each row
 
+
 ## pattern 2: right angled triangle
 rows = int(input("Enter number of rows: "))
 i = 1
@@ -71,3 +72,6 @@ while i <= rows :
         j += 1
     i += 1
     print()
+
+
+
