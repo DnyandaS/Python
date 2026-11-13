@@ -101,3 +101,42 @@ for lower in range(n-1,0,-1):
     for lowerright in range(lower):
         print("*" , end = " ")
     print()
+
+
+# pattern 11 : diamond
+print("diamond-->")
+n = 5
+# upper half
+for i in range(1,n+1):
+    print("  " * (n-i), end = " ")
+    for j in range(1,2*i):
+        print("*",end = " ")
+    print()
+# lower half
+for i in range(n-1,0,-1):
+    print("  " * (n-i), end = " ")
+    for j in range(1,2*i):
+        print("*",end = " ")
+    print()
+
+# pattern 12 : hollow pyramid
+print("hollow pyramid-->")
+n = 5
+for i in range(1,n+1):
+    print("  " * (n-i),end = "")
+    for j in range(1,2*i):
+        if i == n or j == 2*i-1 or j == 1 :
+            print("*", end = " ")
+        else:
+            print(" " , end = " ")
+    print()
+
+# pattern 13 : floyd's triangle
+print("floyd's triangle-->")
+n = 5
+counter = 1
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(counter, end = " ")
+        counter = counter + 1
+    print()
