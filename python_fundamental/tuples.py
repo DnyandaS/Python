@@ -37,3 +37,27 @@ sequence = range(5)
 sequence_a = range(1,6)
 print(tuple(sequence))
 print(tuple(sequence_a))
+
+
+# tuples membership check
+
+## in 
+number = (1,2,3,4,5,6,7,8,9,0)
+check = 5 in number
+print(check)
+print(18 in number)
+
+## not in
+re_check = 15 not in number
+print(re_check)
+print(2 not in number)
+
+# list membership check
+num = [10,20,30,40,50]
+print(10 in num)
+print(10 not in num)
+
+# string membership check
+word = "apple"
+print("le" in word)
+print("ap" not in word)
