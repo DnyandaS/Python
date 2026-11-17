@@ -61,3 +61,35 @@ print(10 not in num)
 word = "apple"
 print("le" in word)
 print("ap" not in word)
+
+# tuple packing
+# brackets are optional while creating a tuple
+number = 1,2,3,4,5
+print(number)
+print(type(number))
+
+# example
+a = 1,
+print(type(a))
+print(a)
+
+a, = 1,
+print(type(a,))
+print(a,)
+
+# tuples unpacking
+color = ("red","blue", "pink")
+c_1, c_2, c_3 = color
+print(c_1)
+print(c_2)
+print(c_3)
+
+# c_1, c_2 = color
+# print(c_1)
+# print(c_2)   # this will give you a value error, because we tried to unpack 3 values into 2 variables.
+
+c_1, c_2, c_3, c_4 = color
+print(c_1)
+print(c_2)
+print(c_3)
+print(c_4)
