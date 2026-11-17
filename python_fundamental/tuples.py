@@ -21,5 +21,19 @@ print(subjects[:4])
 
 # tuples are immutable
 numbers = (60, 20, 30, 40, 50)
-numbers[1] = 10
-print(numbers)    # here you would get an type error cause tuple are immutable(meaning they cannot change after creation).
+# numbers[1] = 10
+# print(numbers)    # here you would get an type error cause tuple are immutable(meaning they cannot change after creation).
+
+# converting string to tuple
+colour = "blue"
+print(tuple(colour))
+
+#converting list to tuple
+number_list = [1, 2, 3, 4, 5]
+print(tuple(number_list))
+
+# converting sequence to tuple
+sequence = range(5)
+sequence_a = range(1,6)
+print(tuple(sequence))
+print(tuple(sequence_a))
