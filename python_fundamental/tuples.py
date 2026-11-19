@@ -96,7 +96,28 @@ print(c_3)
 # print(c_4)   # this will give you a value error, because we gave too many values with fewer elements.
 
 
-# & Sequence
+## & Sequence
 n = None
 print(n)
 print(type(n))
+
+# Functions without return
+def increment(a):
+    a += 1
+
+a = 55
+result = increment(a)
+print(result)
+
+
+def increment(a):
+    a += 1
+    return None
+
+a = 5
+result = increment(a)
+print(result)
+
+
+result = print("Hi")
+print(result)
