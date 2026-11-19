@@ -84,12 +84,19 @@ print(c_1)
 print(c_2)
 print(c_3)
 
+# unpacking errors
 # c_1, c_2 = color
 # print(c_1)
 # print(c_2)   # this will give you a value error, because we tried to unpack 3 values into 2 variables.
 
-c_1, c_2, c_3, c_4 = color
-print(c_1)
-print(c_2)
-print(c_3)
-print(c_4)
+# c_1, c_2, c_3, c_4 = color
+# print(c_1)
+# print(c_2)
+# print(c_3)
+# print(c_4)   # this will give you a value error, because we gave too many values with fewer elements.
+
+
+# & Sequence
+n = None
+print(n)
+print(type(n))
